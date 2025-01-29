@@ -7,7 +7,7 @@ st.set_page_config(page_title="FelizCumple", layout="wide")
 with open("index.html", "r", encoding="utf-8") as f:
     html_code = f.read()
 
-with open("styles.css", "r", encoding="utf-8") as f:
+with open("style.css", "r", encoding="utf-8") as f:
     css_code = f.read()
 
 with open("script.js", "r", encoding="utf-8") as f:
